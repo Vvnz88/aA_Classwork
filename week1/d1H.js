@@ -13,7 +13,8 @@ var str = 'pizza'; // try different strings here
 if (str.length > 10) {
   console.log('long string');
 } else {
-  console.log('short string');// short string 
+  console.log('short string');// short string // else statement is by default true when  
+  // if statement is false
 }
 
 
@@ -35,20 +36,26 @@ if (num % 3 === 0) {
 var num = 15; // try different numbers here
 
 if (num % 3 === 0) {
-  console.log('divisible by 3'); // divisible by 3
+  console.log('divisible by 3'); // divisible by 3// if if statements will look at both
 }
 if (num % 5 === 0) {
-  console.log('divisible by 5'); // divisible by 5
+  console.log('divisible by 5'); // divisible by 5// if if statement will look at both
 }
+
+
 // 9
 var str = 'App AcademY'; // try different strings here
 
 if (str[0] === str[0].toUpperCase()) {
-  console.log('starts with a capital!');
+  console.log('starts with a capital!');// A -true// starts with a capital
+
 }
 if (str[str.length - 1] === str[str.length - 1].toUpperCase()) {
-  console.log('ends with a capital!');
+  console.log('ends with a capital!'); // true -ends with capital
+
 }
+
+
 // 10
 var num = -44; // try different numbers here
 

@@ -1,0 +1,23 @@
+ let myNum = 42;
+if (myNum > 0) {
+    console.log("greater than 0");
+}
+if (myNum < 100){
+    console.log("less than 100");
+
+}
+function capWords(words) {
+    let newWords = [];
+    for ( let i = 0; i < words.length; i++) {
+        let word = words[i];
+        let cappedword = word.toUpperCase();
+        newWords.push(cappedWord);
+    }
+    return newWords
+}
+
+
+
+
+
+
